@@ -1,0 +1,82 @@
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(135, 171, 222);
+    animation: example 10s infinite linear;
+    margin-bottom: 20px !important;
+
+}
+
+@keyframes example {
+    0% {
+        color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        color: rgb(0, 229, 255);
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        color: rgb(157, 0, 255);
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#input1 {
+    padding: 10px;
+width: 116%;
+border-radius: 10px;
+}
+
+#input2 {
+    padding: 10px;
+    width: 120%;
+    border-radius: 10px;
+
+}
+
+.inputed {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px !important;
+    margin-bottom: 14px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 20px !important;
+}
+.totalresult{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
